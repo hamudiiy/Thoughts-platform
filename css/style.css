@@ -668,3 +668,149 @@ body {
     color: #FFFFFF;
 }
 
+/* --- Article Detailed View --- */
+.article-page {
+    flex-direction: column;
+    height: auto;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+.article-header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F1F5F9;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.article-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #111827;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.header-logo {
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.04em;
+    color: #FF5C39;
+}
+
+.btn-share {
+    background-color: #F3F4F6;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    cursor: pointer;
+}
+
+.article-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    padding: 40px 24px;
+}
+
+.article-wrapper {
+    flex: 1;
+    max-width: 800px;
+}
+
+.article-hero {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.article-hero img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.article-meta-header {
+    margin-bottom: 40px;
+}
+
+.article-cat {
+    display: inline-block;
+    color: #FF5C39;
+    font-weight: 800;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+}
+
+.article-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #111827;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+}
+
+.article-author-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.author-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.article-date {
+    font-size: 0.875rem;
+    color: #9CA3AF;
+}
+
+.article-body {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #374151;
+}
+
+.article-body p {
+    margin-bottom: 32px;
+}
+
+.error-msg {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.error-msg h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.loader {
+    text-align: center;
+    padding: 100px 0;
+    font-weight: 700;
+    color: #9CA3AF;
+}
