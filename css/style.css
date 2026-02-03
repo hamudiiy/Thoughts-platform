@@ -814,3 +814,38 @@ body {
     font-weight: 700;
     color: #9CA3AF;
 }
+/* Responsiveness */
+@media (max-width: 1200px) {
+    .sidebar-right {
+        display: none;
+    }
+
+    .article-main {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .sidebar-left {
+        width: 80px;
+        padding: 24px 12px;
+        align-items: center;
+    }
+
+    .logo-text,
+    .user-meta,
+    .chevron,
+    .nav-item span:not(.icon) {
+        display: none;
+    }
+
+    .nav-item {
+        padding: 12px;
+        justify-content: center;
+    }
+
+    .article-title {
+        font-size: 2.5rem;
+    }
+}
+
